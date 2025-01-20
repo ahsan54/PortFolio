@@ -57,11 +57,12 @@ body {
 
 .skills-background {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)),
-              url('./img/man_front.jpg');  /* Correct path for man_front.jpg in src/img/ */
+              url('https://images.unsplash.com/photo-1506748686211-6f6b8bbf5b95'); /* Link to the image */
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
 }
+
 
 .experience-background {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)),
