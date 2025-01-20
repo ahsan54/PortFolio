@@ -103,30 +103,33 @@ function App() {
           </div>
         </header>
 
-        {/* Skills Section */}
         <section id="skills" className="py-20 px-4 skills-background">
-          <div className="max-w-4xl mx-auto">
-            <h2 className="text-4xl font-bold text-center mb-12 neon-title text-white">
-              My Skills
-            </h2>
-            <div className="space-y-6 backdrop-blur-sm bg-black/30 p-8 rounded-xl">
-              {skills.map((skill) => (
-                <div key={skill.name} className="group">
-                  <div className="flex justify-between mb-2">
-                    <span className="font-medium text-white">{skill.name}</span>
-                    <span className="text-blue-300">{skill.level}%</span>
-                  </div>
-                  <div className="h-3 bg-gray-900/50 rounded-full overflow-hidden backdrop-blur-sm">
-                    <div
-                      className="h-full rounded-full skill-progress"
-                      style={{ width: `${skill.level}%` }}
-                    />
-                  </div>
-                </div>
-              ))}
-            </div>
+  <div className="max-w-4xl mx-auto">
+    <h2 className="text-4xl font-bold text-center mb-12 neon-title text-white">
+      My Skills
+    </h2>
+    <div className="space-y-6 backdrop-blur-sm bg-black/30 p-8 rounded-xl">
+      {skills.map((skill) => (
+        <div key={skill.name} className="group">
+          <div className="flex justify-between mb-2">
+            <span className="font-bold text-white skill-label">{skill.name}</span>
+            <span className="font-bold text-blue-300 skill-label">{skill.level}%</span> {/* Bold text */}
           </div>
-        </section>
+          <div className="h-3 bg-gray-900/50 rounded-full overflow-hidden backdrop-blur-sm skill-container">
+            <div
+              className="h-full rounded-full skill-bar"
+              style={{
+                width: `${skill.level}%`,
+                backgroundColor: skill.level >= 90 ? '#00BFFF' : '#2ECC71'  /* Electric Blue for 90% and above, Emerald Green otherwise */
+              }}
+            />
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+
 
        <section id="experience" className="py-20 px-4 experience-background">
           <div className="max-w-4xl mx-auto">
