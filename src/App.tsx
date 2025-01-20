@@ -14,13 +14,14 @@ function App() {
   const [darkMode, setDarkMode] = useState(true);
 
   const skills = [
-    { name: 'Python', level: 75 },
-    { name: 'Object-Oriented Programming', level: 85 },
+    { name: 'Python', level: 80 },
+    { name: 'Object-Oriented Programming', level: 90 },
     { name: 'Data Structures', level: 80 },
-    { name: 'Odoo OpenERP', level: 75 },
+    { name: 'PostgreSQL', level: 80 },
+    { name: 'OdooERP', level: 80 },
+    { name: 'QWeb', level: 80 },
     { name: 'XML', level: 90 },
     { name: 'HTML/CSS', level: 90 },
-    { name: 'PostgreSQL', level: 80 },
   ];
 
   const projects = [
