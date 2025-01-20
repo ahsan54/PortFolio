@@ -82,10 +82,11 @@ body {
 .enhanced-footer {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)),
               url('./img/game.jpg');  /* Correct path for game.jpg in src/img/ */
-  background-size: cover;
-  background-position: center;
+  background-size: cover; /* Ensures image covers the section */
+  background-position: top; /* Ensures top of the image is visible */
   background-attachment: fixed;
 }
+
 
 /* Enhanced skill progress bars */
 .skill-progress {
