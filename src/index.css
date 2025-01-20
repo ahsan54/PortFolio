@@ -88,7 +88,6 @@ body {
   background-attachment: fixed;
 }
 
-
 /* Enhanced skill progress bars */
 .skill-progress {
   position: relative;
@@ -96,15 +95,15 @@ body {
   background: linear-gradient(
     90deg,
     rgba(255, 255, 255, 0.9),
-    #3b82f6,
+    #FFD700, /* Golden Yellow */
     rgba(255, 255, 255, 0.9),
-    #3b82f6
+    #FFD700  /* Golden Yellow */
   );
   background-size: 300% 100%;
   animation: skillGradient 3s ease infinite;
   box-shadow: 
     0 0 10px rgba(255, 255, 255, 0.3),
-    0 0 20px rgba(59, 130, 246, 0.3);
+    0 0 20px rgba(255, 215, 0, 0.3); /* Light golden glow */
 }
 
 @keyframes skillGradient {
@@ -112,6 +111,7 @@ body {
   50% { background-position: 100% 50%; }
   100% { background-position: 0% 50%; }
 }
+
 
 
 /* Enhanced project card styles */
