@@ -15,7 +15,7 @@ function App() {
 
   const skills = [
     { name: 'Python', level: 80 },
-    { name: 'Object-Oriented Programming', level: 90 },
+    { name: 'Object Oriented Programming', level: 90 },
     { name: 'Data Structures', level: 80 },
     { name: 'PostgreSQL', level: 80 },
     { name: 'OdooERP', level: 80 },
