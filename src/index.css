@@ -76,14 +76,15 @@ body {
 }
 
 .enhanced-footer {
-  background: linear-gradient(135deg, #000000, #1a1a1a);
+  background: linear-gradient(135deg, #0d0d0d, #1a1a1a); /* Subtle black gradient */
   background-attachment: fixed;
-  color: #f5f5f5; /* Off-white text color */
-  padding: 40px 20px; /* Increased padding for more height */
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
-  border-top: 2px solid #444;
-  min-height: 150px; /* Ensures a minimum height */
+  color: #f5f5f5; /* Off-white text for contrast */
+  padding: 40px 20px; /* Adjusted padding for height */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Softer shadow effect */
+  border-top: 1px solid #333; /* Slightly visible border */
+  min-height: 150px; /* Minimum height to ensure visibility */
 }
+
 
 
 
