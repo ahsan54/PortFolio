@@ -185,7 +185,7 @@ function App() {
         {/* Footer */}
         <footer className="enhanced-footer relative py-12 px-4 text-white">
           <div className="max-w-4xl mx-auto text-center">
-            <h2 className="text-3xl font-bold mb-8 neon-title">Let's Build Something Together!</h2>
+            <h2 className="text-3xl font-bold mb-8">Your Vision, My Code – Let’s Create Magic!</h2>
             <div className="flex flex-wrap justify-center gap-6 mb-8">
               <a
                 href="tel:03180690159"
