@@ -74,16 +74,15 @@ body {
   background-position: center;
   background-attachment: fixed;
 }
-
 .enhanced-footer {
-  background: linear-gradient(135deg, #0d0d0d, #1a1a1a); /* Subtle black gradient */
+  background-color: #121212; /* Pure flat black */
   background-attachment: fixed;
-  color: #f5f5f5; /* Off-white text for contrast */
-  padding: 40px 20px; /* Adjusted padding for height */
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Softer shadow effect */
-  border-top: 1px solid #333; /* Slightly visible border */
-  min-height: 150px; /* Minimum height to ensure visibility */
+  color: #f5f5f5; /* Off-white text */
+  padding: 40px 20px;
+  border-top: 1px solid #222; /* Subtle border for separation */
+  min-height: 150px;
 }
+
 
 
 
