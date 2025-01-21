@@ -83,6 +83,7 @@ body {
   background-attachment: fixed;
 }
 
+
 /* Enhanced skill progress bars */
 .skill-progress {
   position: relative;
@@ -90,15 +91,15 @@ body {
   background: linear-gradient(
     90deg,
     #FFD700, /* Golden */
-    #FFF4C4, /* Soft cream */
-    #FFFAF0, /* Floral white */
-    #FFE5B4  /* Peach */
+    #87CEEB, /* Light Sky Blue */
+    #FFFAFA, /* Off White */
+    #FFD700  /* Golden again for smooth transition */
   );
   background-size: 400% 100%;
-  animation: skillGradient 3s ease infinite;
+  animation: skillGradient 2s ease-in-out infinite;
   box-shadow: 
     0 0 10px rgba(255, 215, 0, 0.3),
-    0 0 20px rgba(255, 223, 0, 0.3);
+    0 0 20px rgba(135, 206, 235, 0.3);
 }
 
 @keyframes skillGradient {
@@ -106,6 +107,7 @@ body {
   50% { background-position: 100% 50%; }
   100% { background-position: 0% 50%; }
 }
+
 
 
 
