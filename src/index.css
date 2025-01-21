@@ -120,25 +120,26 @@ body {
   backdrop-filter: blur(10px);
   border-radius: 1rem;
   overflow: hidden;
+  padding: 2px; /* Reduced padding for thinner border */
 }
 
 .project-card::before,
 .project-card::after {
   content: '';
   position: absolute;
-  inset: -2px;
-  border-radius: 1rem;
-  padding: 2px;
+  inset: 0;
+  border-radius: 0.85rem;
+  padding: 2px; /* Reduced padding for thinner border */
   background: linear-gradient(
     45deg,
-    #3b82f6,
-    rgba(255, 255, 255, 0.8),
-    #60a5fa,
-    rgba(255, 255, 255, 0.8),
-    #3b82f6
+    #87CEEB, /* Sky Blue */
+    #E0FFFF, /* Light Cyan */
+    #B0E0E6, /* Powder Blue */
+    #00CED1, /* Dark Turquoise */
+    #87CEEB  /* Sky Blue - for seamless loop */
   );
-  background-size: 400% 400%;
-  animation: borderGlow 8s linear infinite;
+  background-size: 300% 300%;
+  animation: borderGlow 6s linear infinite;
   -webkit-mask: 
     linear-gradient(#fff 0 0) content-box, 
     linear-gradient(#fff 0 0);
@@ -147,23 +148,24 @@ body {
     linear-gradient(#fff 0 0);
   -webkit-mask-composite: xor;
   mask-composite: exclude;
+  opacity: 0.9;
 }
 
 .project-card::after {
-  filter: blur(10px);
-  opacity: 0.5;
+  filter: blur(6px);
+  opacity: 0.3;
 }
 
 .project-card:hover {
-  transform: scale(1.03) translateY(-8px);
+  transform: scale(1.02) translateY(-4px);
   box-shadow: 
-    0 20px 40px -20px rgba(0, 0, 0, 0.3),
-    0 0 30px rgba(255, 255, 255, 0.2),
-    0 0 20px rgba(59, 130, 246, 0.3);
+    0 15px 30px -10px rgba(0, 0, 0, 0.3),
+    0 0 20px rgba(135, 206, 235, 0.2),  /* Sky Blue glow */
+    0 0 30px rgba(176, 224, 230, 0.2); /* Powder Blue glow */
 }
 
 .project-card:hover::before {
-  animation: borderGlow 4s linear infinite;
+  animation: borderGlow 3s linear infinite;
 }
 
 @keyframes borderGlow {
