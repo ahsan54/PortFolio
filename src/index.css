@@ -49,7 +49,7 @@ body {
 /* Backgrounds */
 .hero-background {
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), 
-              url('https://images.unsplash.com/photo-1534224039826-c7a0eda0e6b3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80');
+              url('./img/Top.jpg');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -57,7 +57,7 @@ body {
 
 .skills-background {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)),
-               url('./img/Dark.jpg');
+               url('./img/last.webp');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -66,7 +66,7 @@ body {
 
 .experience-background {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)),
-              url('https://images.unsplash.com/photo-1497215728101-856f4ea42174?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80');
+              url('./img/exp.webp');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -82,7 +82,7 @@ body {
 
 .enhanced-footer {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)),
-              url('./img/game.jpg');  /* Correct path for game.jpg in src/img/ */
+              url('./img/exp.webp');
   background-size: cover; /* Ensures image covers the section */
   background-position: top; /* Ensures top of the image is visible */
   background-attachment: fixed;
