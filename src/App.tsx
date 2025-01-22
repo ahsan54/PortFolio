@@ -28,11 +28,11 @@ function App() {
   {
     name: 'Tijaarat Developers',
     description: 'A comprehensive real estate management system with advanced property listings, client management, and automated documentation workflows.',
-    github: '',
+    github: 'https://github.com/ahsan54/Tijaarat-Developers.git',
   },
   {
     name: 'BSS Development',
-    description: 'Enterprise resource planning solution for construction companies featuring project tracking, inventory management, and financial reporting.',
+    description: 'Developed and migrated multiple Odoo 16 modules for HRMS and accounting systems, including dynamic cheque numbering, custom approval workflows, salary register reports, and enhanced employee portals with features like leave requests, payslip views, and tax certificates.',
     github: 'https://github.com/ahsan54/BSS_Custom_Development.git',
   },
   {
