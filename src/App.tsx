@@ -28,52 +28,52 @@ function App() {
   {
     name: 'Tijaarat Developers',
     description: 'A comprehensive real estate management system with advanced property listings, client management, and automated documentation workflows.',
-    github: 'https://github.com/ahsan54/PaymentVoucher.git',
+    github: '',
   },
   {
     name: 'BSS Development',
     description: 'Enterprise resource planning solution for construction companies featuring project tracking, inventory management, and financial reporting.',
-    github: 'https://github.com/ahsan54/Employee-Loan-Management.git',
+    github: 'https://github.com/ahsan54/BSS_Custom_Development.git',
   },
   {
     name: 'Payment Voucher',
-    description: 'Streamlines payment processing with automated journal entries and dynamic voucher numbers.',
+    description: 'Internhip: Streamlines payment processing with automated journal entries and dynamic voucher numbers.',
     github: 'https://github.com/ahsan54/PaymentVoucher.git',
   },
   {
     name: 'Employee Loan Management',
-    description: 'Manages employee loans, automates journal entries, and integrates financial visibility into HR.',
+    description: 'Internhip: Manages employee loans, automates journal entries, and integrates financial visibility into HR.',
     github: 'https://github.com/ahsan54/Employee-Loan-Management.git',
   },
   {
     name: 'Fleet Fuel Tank',
-    description: 'Tracks fuel consumption and tank management with advanced validation.',
+    description: 'Internhip: Tracks fuel consumption and tank management with advanced validation.',
     github: 'https://github.com/ahsan54/Fleet-Fuel-Tank-.git',
   },
   {
     name: 'Hospital Management Odoo',
-    description: 'Efficiently manages patients, doctors, and appointments within Odoo.',
+    description: 'Internhip: Efficiently manages patients, doctors, and appointments within Odoo.',
     github: 'https://github.com/ahsan54/Hospital-Management-Odoo.git',
   },
   {
     name: 'Diabetes Prediction System',
-    description: 'Machine learning-based system for predicting diabetes risk using patient data.',
-    github: '#',
+    description: 'FYP: Machine learning-based system for predicting diabetes risk using patient data.it aims to predict the likelihood of an individual having diabetes using logistic regression model.',
+    github: 'https://ahsan54.github.io/Diabetes_FrontEnd/',
   },
   {
-    name: 'Head Movement Detector',
-    description: 'Innovative system that detects head movements and sends automated WhatsApp messages.',
-    github: '#',
+    name: 'Movement Detector',
+    description: 'Personal: This project detects head movements using a webcam and sends a WhatsApp message via Twilio Web Api to desired number when head movement is detected.',
+    github: 'https://github.com/ahsan54/Head_Movement_Detector.git',
   },
   {
     name: 'Tailor Measurements Saver',
-    description: 'Digital solution for storing and managing tailor measurements efficiently.',
-    github: '#',
+    description: 'Personal: Digital solution for storing and managing tailor measurements efficiently.Built using Python and Flask, this app allows you to perform CRUD on measurements effortlessly.',
+    github: 'https://github.com/ahsan54/Tailor-Measurements-Saver-App.git',
   },
   {
     name: 'Patient Appointment Booking',
-    description: 'Personal project for streamlining patient appointment scheduling and management.',
-    github: '#',
+    description: 'Personal: Project is developed to streamline the process of booking, checking available slots for specifiic doctor, and managing clinic appointments.',
+    github: 'https://github.com/ahsan54/Clinic_ManageMent_Demo.git',
   },
 ];
 
