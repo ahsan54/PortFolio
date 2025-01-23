@@ -75,14 +75,22 @@ body {
   background-attachment: fixed;
 }
 .enhanced-footer {
-  background-color: #121212; /* Pure flat black */
-  background-attachment: fixed;
-  color: #f5f5f5; /* Off-white text */
+  background-color: #121212;
+  background-image: radial-gradient(ellipse at center, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0) 70%),
+                    radial-gradient(ellipse at center, rgba(255,255,255,0.2) 0%, rgba(255,255,255,0) 60%),
+                    radial-gradient(ellipse at center, rgba(255,255,255,0.3) 0%, rgba(255,255,255,0) 50%),
+                    radial-gradient(ellipse at center, rgba(255,255,255,0.4) 0%, rgba(255,255,255,0) 40%),
+                    radial-gradient(ellipse at center, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0) 30%),
+                    radial-gradient(ellipse at center, rgba(255,255,255,0.6) 0%, rgba(255,255,255,0) 20%),
+                    radial-gradient(ellipse at center, rgba(255,255,255,0.7) 0%, rgba(255,255,255,0) 10%);
+  background-size: 600px 600px, 400px 400px, 200px 200px, 100px 100px, 50px 50px, 25px 25px, 10px 10px;
+  background-position: 0 0, 50px 50px, 100px 100px, 150px 150px, 200px 200px, 250px 250px, 300px 300px;
+  background-repeat: repeat;
+  color: #f5f5f5;
   padding: 40px 20px;
-  border-top: 1px solid #222; /* Subtle border for separation */
+  border-top: 1px solid #222;
   min-height: 150px;
 }
-
 
 
 
