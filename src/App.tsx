@@ -37,7 +37,7 @@ function App() {
   },
   {
     name: 'Payment Voucher',
-    description: 'Internhip: Streamlines payment processing with automated journal entries and dynamic voucher numbers.',
+    description: 'Internhip: Designed PV module to streamline payment processing with automated journal entries, featuring dynamically generated debit/credit lines linked to relevant journals. Integrated ir.sequence for different voucher and cheque numbers.',
     github: 'https://github.com/ahsan54/PaymentVoucher.git',
   },
   {
