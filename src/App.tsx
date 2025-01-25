@@ -42,7 +42,7 @@ function App() {
   },
   {
     name: 'Employee Loan Management',
-    description: 'Internhip: Manages employee loans, automates journal entries, and integrates financial visibility into HR.',
+    description: 'Developed an Odoo module for managing employee loans, automating loan application, approval, and installment tracking. It integrates accounting by updating journal entries, including profit JV, upon installment payments. The module also configures loan types, prevents duplicate loan applications.',
     github: 'https://github.com/ahsan54/Employee-Loan-Management.git',
   },
   {
